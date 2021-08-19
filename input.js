@@ -1,3 +1,5 @@
+const { MOVEMENT_KEYS, MESSAGE_HOTKEYS } = require("./constants");
+
 // Stores the active TCP connection object
 let connection;
 
@@ -19,38 +21,15 @@ let connection;
 }
 
 const handleUserInput = (key) => {
-  // switch case will write to server ie. ctrl+c 
-  // I know this will need refactoring as a cohort shared a better idea which shows less line of code than mine!
-  switch (key) {
-    case '\u0003': // ctrl+c unicode
-      process.exit();
-    case 'w':
-      connection.write('Move: up');
-      break;
-    case 'a':
-      connection.write('Move: left');
-      break;
-    case 's':
-      connection.write('Move: down');
-      break;
-    case 'd':
-      connection.write('Move: right');
-      break;
-    case '1':
-      connection.write('Say: Hi!');
-      break;
-    case '2':
-      connection.write('Say: Game on!');
-      break;
-    case '3':
-      connection.write('Say: GLHF!');
-      break;
-    case '4':
-      connection.write('Say: GG!');
-      break;
-    case '5':
-      connection.write('Say: GGWP!');
-      break;
+  if(key === '\u0003') {
+    console.log('Exiting ....');
+    process.exit();
+  }
+  if(MOVEMENT_KEYS[key]) {
+    connection.write(MOVEMENT_KEYS[key]);
+  }
+  if(MESSAGE_HOTKEYS[key]) {
+    connection.write(MESSAGE_HOTKEYS[key]);
   }
 }
 
