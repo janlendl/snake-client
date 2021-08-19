@@ -5,7 +5,7 @@ Snake game is a very popular video game. It is a video game concept where the pl
 This is simply a multiplayer take on the genre.
 
 ## Credit
-Our server code for this game was not written from scratch! It is a heavily modified version of the single player game [snake](https://github.com/taniarascia/snek) created by [Tania Rascia](https://github.com/taniarascia).
+Our server code for this game was not written from scratch! It is a heavily modified version of the single player game snake created by [Tania Rascia](https://github.com/taniarascia).
 
 The demonstration GIF below is taken from the single-player version. It gives us a general idea of the gameplay and style, but ours is a heavily modified multi-player version of the game.
 
