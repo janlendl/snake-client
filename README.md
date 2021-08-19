@@ -37,4 +37,4 @@ Before you can run this client, you will need to be running the server side and 
 
 ## Terminating the game
 - The game will end if you hit the wall
-- You can also termniate the game but pressing ```ctrl+c``` on your keyboard
+- You can also terminate the game but pressing ```ctrl+c``` on your keyboard
