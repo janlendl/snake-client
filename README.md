@@ -11,8 +11,6 @@ Before you can run this client, you will need to be running the server side and 
 
 ## Final Product
 
-!["main screen"](/Snake%20picture.png)
-!["with messages"](/snake%20picture%202.png)
 
 
 ## Getting Started
