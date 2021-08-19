@@ -18,12 +18,6 @@ const connect = function() {
     
     // Send initials to the server
     conn.write(`Name: ${name}`);
-
-    // setInterval(() => conn.write('Move: up'), 1000);
-
-    // setInterval(() => conn.write('Move: left'), 5000);
-
-    // setInterval(() => conn.write('Move: up'), 10000);
   });
 
   conn.on('data', (data) => {

@@ -3,8 +3,6 @@ const { connect } = require('./client');
 const { setupInput } = require('./input');
 
 
-console.log('Connecting ... ');
-// connect(this.connection);
-
+console.log('Connecting ... ')
 
 setupInput(connect());

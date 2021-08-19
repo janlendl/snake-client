@@ -19,7 +19,7 @@ let connection;
 }
 
 const handleUserInput = (key) => {
-  // this will make sure we terminate the terminal with CTRL+C
+  // switch case will write to server ie. ctrl+c 
   switch (key) {
     case '\u0003':
       process.exit();
