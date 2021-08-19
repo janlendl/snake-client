@@ -20,10 +20,10 @@ let connection;
 
 const handleUserInput = (key) => {
   // switch case will write to server ie. ctrl+c 
+  // I know this will need refactoring as a cohort shared a better idea which shows less line of code than mine!
   switch (key) {
     case '\u0003': // ctrl+c unicode
       process.exit();
-      break;
     case 'w':
       connection.write('Move: up');
       break;
