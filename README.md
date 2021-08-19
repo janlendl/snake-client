@@ -13,7 +13,7 @@ The demonstration GIF below is taken from the single-player version. It gives us
 
 #
 
-Before you can run this client, you will need to be running the server side and you you need to install it from here.
+Before you can run this client, you will need to be running the server side and you you need to install it from [here](https://github.com/lighthouse-labs/snek-multiplayer).
 
 ## Final Product
 
