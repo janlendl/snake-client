@@ -21,7 +21,7 @@ let connection;
 const handleUserInput = (key) => {
   // switch case will write to server ie. ctrl+c 
   switch (key) {
-    case '\u0003':
+    case '\u0003': // ctrl+c unicode
       process.exit();
       break;
     case 'w':
