@@ -1,9 +1,9 @@
-const HOST = 'localhost';
+const IP = 'localhost';
 const PORT = 50541;
 const NAME = 'JLP';
 
 module.exports = { 
-  HOST,
+  IP,
   PORT,
   NAME
 };
