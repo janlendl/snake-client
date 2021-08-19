@@ -25,3 +25,16 @@ Before you can run this client, you will need to be running the server side and 
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
+
+## Playing the Game
+- Use the keys 'W' 'A' 'S' 'D' to be able to move around the game
+- To send a canned message use the following hot keys:
+  - 1: Hi
+  - 2: Game on!
+  - 3: GLHF! (Good Luck Have Fun!)
+  - 4: GG! (Good Game!)
+  - 5: GGWP! (Good Game Well Played!)
+
+## Terminating the game
+- The game will end if you hit the wall
+- You can also termniate the game but pressing ```ctrl+c``` on your keyboard
