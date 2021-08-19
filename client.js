@@ -19,6 +19,7 @@ const connect = function() {
     conn.write(`Name: ${NAME}`);
   });
 
+  // This will output whatever data is being passed
   conn.on('data', (data) => {
     console.log(data);
   });
